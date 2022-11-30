@@ -1,0 +1,30 @@
+*{
+    top:0;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    height:50px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    color:white
+}
+.tag{
+    text-align: center;
+    margin-top: 2vw;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.table{
+    margin:auto;
+    margin-top: 10px;
+    width: 80%;
+    border-collapse: collapse;
+   }
+   .table ,td,th{
+       border: 1px solid #ddd;
+   }

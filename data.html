@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/data.css">
+    <title>Data Page</title>
+</head>
+<body>
+    <div>
+        <div class="nav">
+        <a href="Admin.html"><h2>Data Page</h2></a>
+          <input type="search"
+          id="searchbyname" placeholder="Search Bar"
+          onchange="debounce(search, 200)" />
+          <a href="report.html"><h2>Report Page</h2></a>
+        </div>
+        <h1 class="tag">Welcome To Data Page</h1>
+      </div>
+      <div class="filter">
+        <select name="" id="filterByGender">
+          <option value="">Filter by Gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+        <select name="" id="sortByAge">
+          <option value="">Sort by Age</option>
+          <option value="lth">Low to High</option>
+          <option value="htl">High to Low</option>
+        </select>
+      </div>
+    <div id="data"></div>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="editDetails" style='width:fit-content;margin:auto'>Edit Dog Data</h2>
+        <input id="name" type="text" placeholder="name">
+        <input id="age" type="text" placeholder="age">
+        <input id="gender" type="text" placeholder="gender">
+        <input id="place" type="text" placeholder="place">
+        <button style="cursor: pointer;" id="submission">submit</button>
+    </div>
+</body>
+</html>
+<script src="./Script/data.js"></script>

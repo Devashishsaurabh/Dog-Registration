@@ -1,0 +1,38 @@
+*{
+    top:0;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    height:50px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    color:white
+}
+.tag{
+    text-align: center;
+    margin-top: 2vw;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color:black;
+    margin-top: 15vw;
+    margin-bottom: 20vw;
+    padding: 25px 40px 25px 40px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+a:nth-child(1){
+    background-color: aquamarine;
+}
+a:nth-child(2){
+    background-color: goldenrod;
+}
